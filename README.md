@@ -11,7 +11,7 @@ The data set covers all behaviors (including clicks, favorites, adding, and purc
 | User ID | An integer, the serialized ID that represents a user |
 | OD Query ID | An integer, the serialized ID represents a query which contains departure and destination |
 | Transfer Plan ID | An integer, the serialized ID that represents an transfer plan |
-| Behavior type | A string, enum-type from ('browsing', 'purchasing') |
+| Behavior type | A string, enum-type from ('browsing', 'purchasing', 'reference') |
 | Timestamp | An integer, the timestamp of the behavior |
 
 
@@ -36,8 +36,8 @@ This data file mainly contains the basic attribute characteristics of about 69M 
 | First Arrive City ID | An integer, the serialized ID of destination city for the first leg of the transfer plan |
 | Second Depart City ID | A integer, the serialized ID of departure city for the second leg of the transfer plan|
 | Second Arrive City ID | A integer, the serialized ID of destination city for the second leg of the transfer plan |
-| Departure Time | A integer, the departure time of the transfer plan |
-| Arrive Time | A integer, the arrive time of the transfer plan |
-| Cost Time | A integer, the cost of the transfer plan |
-| Cost Price| A integer, the ID of the transfer plan |
+| Depart Time | A String, the departure time of the transfer plan |
+| Arrive Time | A String, the arrive time of the transfer plan |
+| Cost Time | A integer, the cost time of the transfer plan |
+| Cost Price| A integer, the cost price of the transfer plan |
 
