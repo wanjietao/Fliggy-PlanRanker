@@ -9,7 +9,7 @@ The data set covers all behaviors (including clicks, favorites, adding, and purc
 | Field | Explanation |
 | --- | --- |
 | User ID | An integer, the serialized ID that represents a user |
-| Transfer ID | An integer, the serialized ID that represents an transfer plan |
+| Transfer Plan ID | An integer, the serialized ID that represents an transfer plan |
 | Behavior type | A string, enum-type from ('expo', 'clk', 'pay') |
 | Timestamp | An integer, the timestamp of the behavior |
 
@@ -29,9 +29,10 @@ This data set mainly contains the basic attributes of about five million random 
 This data file mainly contains the basic attribute characteristics of about 69M products, such as product Depart City ID, Arrive City ID, Cost Time, Cost Price, etc. Each row of the data set represents the information of a transfer plan, separated by commas. The detailed description of each column in the data set is as follows:
 | Field | Explanation |
 | --- | --- |
-| TransPlan ID | An integer, the serialized ID that represents an transfer plan |
+| Transfer Plan ID | An integer, the serialized ID that represents an transfer plan |
 | First Depart City ID | An integer, the serialized ID of departure city for the first leg of the transfer plan |
-| First Arrive City ID | An integer, the serialized ID of destination city for the first leg of the transfer plan |
+| First Arrive City ID | An integer, the serialized ID of destination city for the first leg of the 
+fer plan |
 | Second Depart City ID | A integer, the serialized ID of departure city for the second leg of the transfer plan|
 | Second Arrive City ID | A integer, the serialized ID of destination city for the second leg of the transfer plan |
 | Cost Time | A integer, the cost of the transfer plan |
