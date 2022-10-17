@@ -4,7 +4,7 @@ https://tianchi.aliyun.com/dataset/dataDetail?dataId=1136433
 
 # Data Format
 
-### user_transplans_behavior.csv
+### user_behavior_transfer_plans.csv
 The data set covers all behaviors (including clicks, favorites, adding, and purchases) of approximately 48.8M million random users from August 16, 2022 to September 17, 2022. The organization of the data set as fllows, namely Each row of the collection represents a user data behavior, which is composed of user ID, Transfer plan ID, behavior type, and Timestamp log. Each column summarizes the detailed information of the product under investigation.
 | Field | Explanation |
 | --- | --- |
