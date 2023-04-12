@@ -36,13 +36,11 @@ This data file mainly contains the basic attribute characteristics of about 69M 
 | Transfer Plan ID | An integer, the serialized ID that represents an transfer plan |
 | First Depart City ID | An integer, the serialized ID of departure city for the first leg of the transfer plan |
 | First Arrive City ID | An integer, the serialized ID of destination city for the first leg of the transfer plan |
-| Second Depart City ID | A integer, the serialized ID of departure city for the second leg of the transfer plan|
-| Second Arrive City ID | A integer, the serialized ID of destination city for the second leg of the transfer plan |
 | First Depart Time | A String, the departure time of the transfer plan |
 | First Arrive Time | A String, the arrive time of the transfer plan |
-| First Cost Time | A integer, the cost time of the transfer plan |
 | First Cost Price | A integer, the cost price of the transfer plan |
-| Second Cost Time | A integer, the cost time of the transfer plan |
+| Second Depart City ID | A integer, the serialized ID of departure city for the second leg of the transfer plan|
+| Second Arrive City ID | A integer, the serialized ID of destination city for the second leg of the transfer plan |
 | Second Depart Time | A String, the departure time of the transfer plan |
 | Second Arrive Time | A String, the arrive time of the transfer plan |
 | Second Cost Price | A integer, the cost price of the transfer plan |
