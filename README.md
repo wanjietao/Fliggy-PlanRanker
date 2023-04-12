@@ -2,6 +2,8 @@
 
 https://tianchi.aliyun.com/dataset/140721
 
+The entire dataset disclosure application is in progress and will be released later.
+
 # Data Format
 
 ### user_behavior_transfer_plans.csv
